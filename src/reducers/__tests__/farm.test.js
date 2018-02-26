@@ -1,6 +1,6 @@
 import farm from '../farm';
-import {MOVE_ORDER_TO_FARM} from '../../actions/marketTypes';
-import {MOVE_ORDER_TO_CUSTOMER} from '../../actions/farmTypes';
+import {MOVE_ORDER_TO_FARM} from '../../actions/marketActions';
+import {MOVE_ORDER_TO_CUSTOMER} from '../../actions/farmActions';
 
 describe('reducer farm', () => {
   it('экшен с типом MOVE_ORDER_TO_FARM добавляет action.payload к orders', () => {

@@ -1,7 +1,7 @@
 import {
   CREATE_ORDER,
   MOVE_ORDER_TO_FARM
-} from '../../actions/marketTypes';
+} from '../../actions/marketActions';
 import market from '../market';
 
 describe('reducer market', () => {

@@ -1,9 +1,9 @@
 import budget from '../budget';
-import {MOVE_ORDER_TO_CUSTOMER} from '../../actions/farmTypes';
+import {MOVE_ORDER_TO_CUSTOMER} from '../../actions/farmActions';
 import {
   CREATE_ORDER,
   MOVE_ORDER_TO_FARM
-} from '../../actions/marketTypes';
+} from '../../actions/marketActions';
 
 describe('reducer budget', () => {
   it('экшен с типом MOVE_ORDER_TO_CUSTOMER увеличивает deliveryExpanse на 20', () => {
